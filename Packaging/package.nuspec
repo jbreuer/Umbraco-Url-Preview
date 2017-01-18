@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Our.Umbraco.UrlPreview</id>
+        <version>0.0.0</version>
+        <title>Url Preview for Umbraco</title>
+        <authors>Jeroen Breuer</authors>
+        <owners>Jeroen Breuer</owners>
+        <projectUrl>https://github.com/jbreuer/umbraco-url-preview</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A property editor which shows the URLs.</description>
+        <summary>A property editor which shows the URLs.</summary>
+        <copyright>Jeroen Breuer</copyright>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+        <language>en-GB</language>
+        <tags>umbraco</tags>
+        <dependencies>
+            <dependency id="UmbracoCms.Core" version="7.3.0" />
+        </dependencies>		
+    </metadata>    
+	<files>			
+		<file src="App_Plugins\**\*.*" target="Content\App_Plugins" />
+	</files>
+</package>

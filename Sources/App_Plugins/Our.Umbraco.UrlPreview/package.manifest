@@ -1,0 +1,16 @@
+{
+    propertyEditors: [      
+        {
+            alias: "UrlPreview",
+            name: "Url Preview",
+            editor: {
+                view: "~/App_Plugins/Our.Umbraco.UrlPreview/urlpreview.html"
+            }
+        }
+    ],
+	javascript: [
+		'~/App_Plugins/Our.Umbraco.UrlPreview/urlpreview.interceptor.js',
+        '~/App_Plugins/Our.Umbraco.UrlPreview/urlpreview.controller.js',
+		'~/App_Plugins/Our.Umbraco.UrlPreview/urlpreview.resource.js'
+    ]
+}

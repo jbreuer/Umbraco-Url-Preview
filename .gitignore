@@ -26,3 +26,6 @@ Desktop.ini
 [Dd]ebug/
 [Bb]uild/
 [Rr]elease/
+
+#Deployment/
+Sources/packages/
